@@ -2,7 +2,7 @@
 import flask,requests,json
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+
 import keras
 from keras.models import load_model
 #getting data from Api
