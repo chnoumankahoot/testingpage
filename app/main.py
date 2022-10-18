@@ -51,7 +51,7 @@ def predict():
     if (params == None):
         params = flask.request.args
 
-    # if parameters are found, return a prediction
+   
     if (params != None):
         test2 = extract_window_data(hist.tail(10), window_len=5, zero_base=True)
         futureprice = model.predict(test2).squeeze()
