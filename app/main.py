@@ -69,5 +69,3 @@ def predict():
     # return a response in json format
     return flask.jsonify(data)
 
-# start the flask app, allow remote connections
-app.run(host='0.0.0.0')
